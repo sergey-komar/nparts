@@ -1,0 +1,224 @@
+.heading-slider__wrapper {
+    min-height: calc(100vh - 90px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-slider__item {
+    max-width: 550px;
+    min-height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heading-slider__item-title {
+    margin-bottom: 40px;
+    font-size: 64px;
+    font-family: 'Futurademi';
+    color: #fff;
+}
+.heading-slider__item-text {
+    margin-bottom: 40px;
+    color: #fff;
+}
+.heading-slider__item-btn {
+    display: block;
+    width: 360px;
+    max-width: 100%;
+    height: 40px;
+    line-height: 36px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 20px;
+    font-family: 'Futurademi';
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+   
+}
+.heading-slider__item-btn:hover{
+    background-color:  #28859f;
+}
+.heading-slider .slick-dots{
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 2;
+}
+.heading-slider .slick-dots li button{
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 85px;
+    height: 2px;
+    background-color: #fff;
+}
+.heading-slider .slick-dots li.slick-active button{
+    background-color: #28859f;
+}
+
+
+//SELLERS
+.sellers {
+    padding-bottom: 100px;
+}
+.sellers__title {
+    margin-bottom: 0;
+}
+.sellers-slider {
+    margin-bottom: 50px;
+}
+.sellers-slider__item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 30px 0 rgba(136, 142, 171, 0.25);
+    background: #fff;
+}
+.sellers-slider__item-logo {
+    margin-bottom: 10px;
+}
+.sellers-slider__item-img {
+    margin-bottom: 10px;
+}
+.sellers-slider__item-img img{
+   object-fit: cover;
+}
+.sellers-slider__item-text {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.sellers-slider__price {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Futurademi';
+}
+.sellers-slider__price-old {
+    text-decoration: line-through;
+    color: #888eab;
+}
+.sellers-slider__price-text{
+    position: relative;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.sellers-slider__price-text::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 15px;
+    top: 4px;
+    left: -6px;
+    transform: rotate(20deg);
+    background-color: #282828;
+}
+.sellers-slider__button {
+    display: flex;
+    gap: 10px;
+    margin-top: auto;
+}
+.sellers-slider__button-cart {
+    width: 100%;
+}
+.sellers-slider__button-compare {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #28859f;
+    font-size: 18px;
+	font-family: 'Futurademi';
+    border-radius: 20px;
+    text-align: center;
+	background: #28859f;
+	color: #fff;
+    border: none;
+}
+.sellers-slider__button-compare:hover{
+    background: #014e64;
+}
+.sellers__btn{
+    width: 360px;
+    margin: 0 auto;
+}
+.sellers-slider .slick-dots,
+.brand-slider .slick-dots{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.sellers-slider .slick-dots li button,
+.brand-slider .slick-dots li button{
+    font-size: 0;
+    padding: 0;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+}
+.sellers-slider li.slick-active button,
+.brand-slider li.slick-active button{
+    background-color: #28859f;
+}
+.sellers-slider .slick-list{
+    padding: 50px 0;
+} 
+// одинаковая высота слайдов
+.sellers-slider .slick-track,
+.brand-slider .slick-track{
+    display: flex;
+}
+.sellers-slider .slick-slide,
+.brand-slider .slick-slide{
+    height:auto;
+    flex:0 0 auto;
+}
+.sellers-slider .slick-slide > div,
+.sellers-slider__wrapper,
+.sellers-slider__item,
+.brand-slider .slick-slide > div,
+.brand-slider__item,
+.brand-slider__item-img{
+    height: 100%;
+}
+// одинаковая высота слайдов
+
+
+
+
+//BRAND
+.brand {
+    padding-bottom: 100px;
+}
+.brand-slider__item-img img{
+    margin: 0 auto;
+}
+.brand-slider .slick-prev,
+.brand-slider .slick-next {
+    padding: 0;
+    font-size: 0;
+    border: none;
+    width: 14px;
+    height: 22px;
+    position: absolute;
+    top: 25%;
+    z-index: 2;
+}
+.brand-slider .slick-prev{
+    background: url('../images/home/arrow-brand-left.svg') no-repeat;
+    left: 0;
+}
+.brand-slider .slick-next{
+    background: url('../images/home/arrow-brand-right.svg') no-repeat;
+    right: 0;
+}

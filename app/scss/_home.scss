@@ -1,0 +1,24 @@
+.information {
+    padding: 80px 0 100px 0;
+}
+.information-box {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background: url('../images/home/heading-bottom-bg.png') no-repeat;
+}
+.information-box__item {
+    width: calc(100% / 3 - 40px);
+    text-align: center;
+}
+.information-box__item-number {
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #fff;
+}
+.information-box__item-text {
+    font-size: 24px;
+    color: #fff;
+}
