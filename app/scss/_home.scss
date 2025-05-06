@@ -22,3 +22,221 @@
     font-size: 24px;
     color: #fff;
 }
+
+
+
+//FEEDBACK
+.feedback{
+    padding: 100px 0 120px 0;
+}
+.feedback-block {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.feedback-block__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 50px);
+    padding: 20px;
+    box-shadow: 0 4px 30px 0 rgba(136, 142, 171, 0.25);
+    background: #fff;
+}
+.feedback-block__top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback-block__user {
+    display: flex;
+    gap: 10px;
+}
+.feedback-block__user-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.feedback-block__user-name span{
+    display: block;
+    font-size: 16px;
+}
+.feedback-block__item-text{
+    margin-bottom: 25px;
+}
+.feedback-block__item-text a{
+    color: #28859f;
+}
+.feedback-block__bottom {
+    margin-top: auto;
+    display: flex;
+    gap: 10px;
+}
+.feedback-block__bottom-item {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.feedback-block__bottom-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.feedback__btn{
+    width: 360px;
+    margin: 0 auto;
+}
+
+
+//why
+.why {
+    padding-bottom: 100px;
+}
+.why-box {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    background: url('../images/home/top-sellers-bg.png') no-repeat;
+}
+.why-box__text {
+    max-width: 280px;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+}
+.why-box__img{
+    margin-top: -60px;
+}
+
+
+
+
+
+//NEWS
+.news {
+    padding-bottom: 120px 0 100px 0;
+}
+.news-block {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.news-block__item {
+    width: calc(100% / 3 - 60px);
+    box-shadow: 0 2px 7px 0 rgba(40, 40, 40, 0.2);
+    border-radius: 10px;
+}
+.news-block__wrapper{
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fff;
+}
+.news-block__item-title {
+    margin-bottom: 10px;
+    font-family: 'Futurademi';
+    font-size: 24px;
+}
+.news-block__item-img img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.news-block__item-date {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.news-block__item-link {
+    color: #28859f;
+}
+.news-block__item-link:hover,
+.feedback-block__item-text a:hover{
+    color: #014e64;
+}
+.news__btn {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+
+//REACH
+.reach {
+    padding: 120px 0;
+}
+.reach-block {
+    padding: 30px 70px;
+    max-width: 880px;
+    margin: 0 auto;
+    box-shadow: 0 4px 30px 0 rgba(136, 142, 171, 0.25);
+    text-align: center;
+    background: url('../images/home/reach-bg.png') no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.reach__title {
+    margin-bottom: 10px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.reach__text {
+    margin: 0 auto 20px auto;
+    max-width: 540px;
+}
+.reach-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.reach-form__item {
+    width: 48%;
+}
+.reach-form__item--textarea{
+    width: 100%;
+}
+.reach-form__item span{
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+    text-align: left;
+}
+.reach-form__item-input {
+    width: 100%;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+}
+.reach-form__item-input::placeholder{
+    font-size: 20px;
+    color: #282828;
+}
+.reach-form__item-textarea {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 120px;
+    color: #888eab;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+}
+.reach-form__item-textarea::placeholder{
+    font-size: 20px;
+    color: #888eab;
+}
+.reach-form__btn {
+    width: 320px;
+    margin: 0 auto;
+}

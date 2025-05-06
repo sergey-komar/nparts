@@ -1,0 +1,77 @@
+.footer {
+    padding: 50px 0 90px 0;
+    background-color: #282828;
+}
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.footer-block__item {
+    width: calc(100% / 5 - 40px);
+}
+.footer-block__item-logo{
+    display: block;
+    margin-bottom: 35px;
+}
+.footer-block__item-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #888eab;
+    font-family: 'Futurademi';
+}
+.footer-block__item-text span{
+    font-family: 'Futurabook';
+    font-weight: 400;
+}
+.footer-block__item-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #28859f;
+}
+.footer-block__menu li{
+    margin-bottom: 20px;
+}
+.footer-block__menu li a{
+    color: #fff;
+}
+.footer-block__menu li a:hover,
+.footer-block__item-email:hover,
+.footer-block__item-phone:hover{
+    color: #28859f;
+}
+.footer-block__item-email,
+.footer-block__item-phone {
+    margin-bottom: 20px;
+    display: block;
+    color: #fff;
+}
+.footer-block__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* КНОПКА НА ВВЕРХ */
+.btnUp{
+    background: #014e64;
+    color: #fff;
+    line-height: 45px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity .5s;
+    pointer-events: none;
+  }
+  
+  .btnUp-visible{
+    opacity: 1;
+    pointer-events: auto;
+  }

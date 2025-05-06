@@ -88,6 +88,8 @@
 }
 .search {
     position: relative;
+}
+.search-form{
     width: 220px;
     height: 40px;
     line-height: 40px;
@@ -95,6 +97,7 @@
     align-items: center;
     border: 2px solid #282828;
     border-radius: 20px;
+    transition: all .4s ease-in;
 }
 .search::before{
     position: absolute;

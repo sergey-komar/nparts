@@ -58,3 +58,66 @@ button:hover{
 .btn:hover{
 	background: #014e64;
 }
+
+
+//BREADCRUMBS
+.breadcrumbs {
+	margin-top: 90px;
+    padding: 40px 0 20px 0;
+}
+.breadcrumbs__list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+.breadcrumbs__list li {
+    position: relative;
+    line-height: 1;
+}
+.breadcrumbs__list li::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 15px;
+    top: 3px;
+    right: -10px;
+    transform: rotate(20deg);
+    background-color:  #888eab;
+}
+.breadcrumbs__list li:last-child{
+    font-family: 'Futurademi';
+}
+.breadcrumbs__list li:last-child::after{
+    display: none;
+}
+.breadcrumbs__list li a{
+    font-size: 16px;
+	color: #888eab;
+}
+
+
+
+//PAGINATION
+.pagination__list {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	align-items: center;
+}
+.pagination__list li a{
+	display: block;
+	font-family: 'Futurademi';
+}
+.pagination-active{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #28859f;
+	color: #fff;
+	
+}
