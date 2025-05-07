@@ -13,6 +13,9 @@
   <header class="header">
     <div class="container">
       <div class="header-box">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="#" class="logo">
           <img src="./images/home/logo.svg" alt="img">
         </a>
@@ -85,24 +88,36 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <form action="#" class="search-form">
-            <input class="search-form__input" type="text" placeholder="Search">
-          </form>
-        </div>
-
-        <a href="./checkout.html" class="basket">
-          <div class="basket-img">
-            <img src="./images/home/basket.svg" alt="img">
-            <span>5</span>
+        <div class="header-wrapper">
+          <div class="search">
+            <div class="search-mobile-btn">
+              <img src="./images/home/search-mobile.svg" alt="img">
+            </div>
+           
+              <form action="#" class="search-form">
+                <input class="search-form__input" type="text" placeholder="Search">
+              </form>
+              <div class="search-mobile-close">
+                <img src="./images/home/close.svg" alt="img">
+              </div>
+       
+           
           </div>
-          <div class="basket__text">Check out</div>
-        </a>
+  
+          <a href="./checkout.html" class="basket">
+            <div class="basket-img">
+              <img src="./images/home/basket.svg" alt="img">
+              <span>5</span>
+            </div>
+            <div class="basket__text">Check out</div>
+          </a>
+        </div>
+        
       </div>
     </div>
   </header>
  
-    <main class="main">
+     <main class="main">
       <section class="heading">
         <div class="heading-slider">
           <div class="heading-slider__wrapper" style="background-image: url('./images/home/heading-bg.jpg');">
@@ -154,7 +169,7 @@
             </div>
             <div class="information-box__item">
               <div class="information-box__item-number">15</div>
-              <p class="information-box__item-text">brands represented</p>
+              <p class="information-box__item-text">brands</p>
             </div>
           </div>
         </div>
@@ -572,107 +587,152 @@
       <section class="feedback">
         <div class="container">
           <h3 class="feedback__title title">Clients’ Feedback</h3>
-          <div class="feedback-block">
-            <div class="feedback-block__item">
-              <div class="feedback-block__top">
-                <div class="feedback-block__user">
-                  <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
-                  <div class="feedback-block__user-name">
-                    <p>John Johnson</p>
-                    <span>2 months ago</span>
+         
+            <div class="feedback-block-slider">
+              <div class="feedback-block__wrapper">
+                <div class="feedback-block__item">
+                  <div class="feedback-block__top">
+                    <div class="feedback-block__user">
+                      <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
+                      <div class="feedback-block__user-name">
+                        <p>John Johnson</p>
+                        <span>2 months ago</span>
+                      </div>
+                    </div>
+                    <div class="feedback-block__star">
+                      <img src="./images/home/feedback-star.svg" alt="img">
+                    </div>
+                  </div>
+    
+                  <p class="feedback-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... <a href="#">More</a>
+                  </p>
+                  <div class="feedback-block__bottom">
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                      <a href="#" class="feedback-block__bottom-play">
+                        <img src="./images/home/feedback-play.svg" alt="img" >
+                      </a>
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                      <a href="#" class="feedback-block__bottom-play">
+                        <img src="./images/home/feedback-play.svg" alt="img" >
+                      </a>
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
                   </div>
                 </div>
-                <div class="feedback-block__star">
-                  <img src="./images/home/feedback-star.svg" alt="img">
+              </div>
+              
+              <div class="feedback-block__wrapper">
+                <div class="feedback-block__item">
+                  <div class="feedback-block__top">
+                    <div class="feedback-block__user">
+                      <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
+                      <div class="feedback-block__user-name">
+                        <p>John Johnson</p>
+                        <span>2 months ago</span>
+                      </div>
+                    </div>
+                    <div class="feedback-block__star">
+                      <img src="./images/home/feedback-star.svg" alt="img">
+                    </div>
+                  </div>
+    
+                  <p class="feedback-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... <a href="#">More</a>
+                  </p>
+                  <div class="feedback-block__bottom">
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                  </div>
                 </div>
               </div>
-
-              <p class="feedback-block__item-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... <a href="#">More</a>
-              </p>
-              <div class="feedback-block__bottom">
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                  <a href="#" class="feedback-block__bottom-play">
-                    <img src="./images/home/feedback-play.svg" alt="img" >
-                  </a>
+             
+              <div class="feedback-block__wrapper">
+                <div class="feedback-block__item">
+                  <div class="feedback-block__top">
+                    <div class="feedback-block__user">
+                      <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
+                      <div class="feedback-block__user-name">
+                        <p>John Johnson</p>
+                        <span>2 months ago</span>
+                      </div>
+                    </div>
+                    <div class="feedback-block__star">
+                      <img src="./images/home/feedback-star.svg" alt="img">
+                    </div>
+                  </div>
+    
+                  <p class="feedback-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex...<a href="#">More</a>
+                  </p>
+                  <div class="feedback-block__bottom">
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                      <a href="#" class="feedback-block__bottom-play">
+                        <img src="./images/home/feedback-play.svg" alt="img" >
+                      </a>
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                  </div>
                 </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                  <a href="#" class="feedback-block__bottom-play">
-                    <img src="./images/home/feedback-play.svg" alt="img" >
-                  </a>
-                </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+              </div>
+              
+              <div class="feedback-block__wrapper">
+                <div class="feedback-block__item">
+                  <div class="feedback-block__top">
+                    <div class="feedback-block__user">
+                      <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
+                      <div class="feedback-block__user-name">
+                        <p>John Johnson</p>
+                        <span>2 months ago</span>
+                      </div>
+                    </div>
+                    <div class="feedback-block__star">
+                      <img src="./images/home/feedback-star.svg" alt="img">
+                    </div>
+                  </div>
+    
+                  <p class="feedback-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex...<a href="#">More</a>
+                  </p>
+                  <div class="feedback-block__bottom">
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                      <a href="#" class="feedback-block__bottom-play">
+                        <img src="./images/home/feedback-play.svg" alt="img" >
+                      </a>
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                    <div class="feedback-block__bottom-item">
+                      <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="feedback-block__item">
-              <div class="feedback-block__top">
-                <div class="feedback-block__user">
-                  <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
-                  <div class="feedback-block__user-name">
-                    <p>John Johnson</p>
-                    <span>2 months ago</span>
-                  </div>
-                </div>
-                <div class="feedback-block__star">
-                  <img src="./images/home/feedback-star.svg" alt="img">
-                </div>
-              </div>
-
-              <p class="feedback-block__item-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... <a href="#">More</a>
-              </p>
-              <div class="feedback-block__bottom">
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                </div>
-              </div>
-            </div>
-            <div class="feedback-block__item">
-              <div class="feedback-block__top">
-                <div class="feedback-block__user">
-                  <img src="./images/home/feedback-user.svg" alt="img" class="feedback-block__user-img">
-                  <div class="feedback-block__user-name">
-                    <p>John Johnson</p>
-                    <span>2 months ago</span>
-                  </div>
-                </div>
-                <div class="feedback-block__star">
-                  <img src="./images/home/feedback-star.svg" alt="img">
-                </div>
-              </div>
-
-              <p class="feedback-block__item-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex...<a href="#">More</a>
-              </p>
-              <div class="feedback-block__bottom">
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                  <a href="#" class="feedback-block__bottom-play">
-                    <img src="./images/home/feedback-play.svg" alt="img" >
-                  </a>
-                </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                </div>
-                <div class="feedback-block__bottom-item">
-                  <img class="feedback-block__bottom-img" src="./images/home/feedback-img.png" alt="img">
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <a href="#" class="feedback__btn btn">More reviews</a>
         </div>
@@ -692,52 +752,79 @@
       <section class="news">
         <div class="container">
           <h3 class="news__title title">News</h3>
-          <div class="news-block">
-            <div class="news-block__item">
-              <div class="news-block__item-img">
-                <img src="./images/home/news-1.jpg" alt="img">
-              </div>
-              <div class="news-block__wrapper">
-                <div class="news-block__item-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          <div class="news-block-slider">
+            <div class="news-block__inner">
+              <div class="news-block__item">
+                <div class="news-block__item-img">
+                  <img src="./images/home/news-1.jpg" alt="img">
                 </div>
-                <div class="news-block__item-date">2 months ago</div>
-                <p class="news-block__item-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
-                  <a href="#" class="news-block__item-link">More</a>
-                </p>
+                <div class="news-block__wrapper">
+                  <div class="news-block__item-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  </div>
+                  <div class="news-block__item-date">2 months ago</div>
+                  <p class="news-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
+                    <a href="#" class="news-block__item-link">More</a>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="news-block__item">
-              <div class="news-block__item-img">
-                <img src="./images/home/news-2.jpg" alt="img">
-              </div>
-              <div class="news-block__wrapper">
-                <div class="news-block__item-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            
+            <div class="news-block__inner">
+              <div class="news-block__item">
+                <div class="news-block__item-img">
+                  <img src="./images/home/news-2.jpg" alt="img">
                 </div>
-                <div class="news-block__item-date">2 months ago</div>
-                <p class="news-block__item-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
-                  <a href="#" class="news-block__item-link">More</a>
-                </p>
+                <div class="news-block__wrapper">
+                  <div class="news-block__item-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  </div>
+                  <div class="news-block__item-date">2 months ago</div>
+                  <p class="news-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
+                    <a href="#" class="news-block__item-link">More</a>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="news-block__item">
-              <div class="news-block__item-img">
-                <img src="./images/home/news-3.jpg" alt="img">
-              </div>
-              <div class="news-block__wrapper">
-                <div class="news-block__item-title">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          
+            <div class="news-block__inner">
+              <div class="news-block__item">
+                <div class="news-block__item-img">
+                  <img src="./images/home/news-3.jpg" alt="img">
                 </div>
-                <div class="news-block__item-date">2 months ago</div>
-                <p class="news-block__item-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
-                  <a href="#" class="news-block__item-link">More</a>
-                </p>
+                <div class="news-block__wrapper">
+                  <div class="news-block__item-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  </div>
+                  <div class="news-block__item-date">2 months ago</div>
+                  <p class="news-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
+                    <a href="#" class="news-block__item-link">More</a>
+                  </p>
+                </div>
               </div>
             </div>
+
+            <div class="news-block__inner">
+              <div class="news-block__item">
+                <div class="news-block__item-img">
+                  <img src="./images/home/news-3.jpg" alt="img">
+                </div>
+                <div class="news-block__wrapper">
+                  <div class="news-block__item-title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  </div>
+                  <div class="news-block__item-date">2 months ago</div>
+                  <p class="news-block__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis, sapien vel ornare pulvinar, lorem diam malesuada pus, id fermentum neque turpis id ex... 
+                    <a href="#" class="news-block__item-link">More</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+         
           </div>
 
           <a href="#" class="news__btn btn">More News</a>
@@ -770,6 +857,7 @@
         </div>
       </section>
     </main>
+    
     <footer class="footer">
       <div class="container">
         <div class="footer-block">
@@ -777,14 +865,17 @@
             <a href="#" class="footer-block__item-logo">
               <img src="./images/home/logo-footer.svg" alt="img">
             </a>
-            <p class="footer-block__item-text">
-              Business References: 
-              <span>Company Details Company</span>
-            </p>
-            <p class="footer-block__item-text">
-                  Company Details: 
-              <span>VAT number</span>
-            </p>
+            <div class="footer-block__desctop-text">
+              <p class="footer-block__item-text">
+                Business References: 
+                <span>Company Details Company</span>
+              </p>
+              <p class="footer-block__item-text">
+                    Company Details: 
+                <span>VAT number</span>
+              </p>
+            </div>
+          
           </div>
           <div class="footer-block__item">
             <div class="footer-block__item-title">Quick Links</div>
@@ -835,9 +926,21 @@
               </a>
             </div>
           </div>
+
+
+        </div>
+        <div class="footer-block__mobile-text">
+          <p class="footer-block__item-text">
+            Business References: 
+            <span>Company Details Company</span>
+          </p>
+          <p class="footer-block__item-text">
+                Company Details: 
+            <span>VAT number</span>
+          </p>
         </div>
       </div>
-    </footer>
+    </footer> 
   
 
 

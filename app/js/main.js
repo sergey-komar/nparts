@@ -10,14 +10,107 @@ $(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
-        dots: true
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+         
+          {
+            breakpoint: 830,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+         
+        ]
     });
 
 
     $('.brand-slider').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
-        dots: true
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1300,
+            settings: {
+              slidesToShow: 5,
+            }
+          },
+          {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 4,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 850,
+            settings: {
+              slidesToShow: 3,
+              arrows: false
+            }
+          },
+          {
+            breakpoint: 550,
+            settings: {
+              slidesToShow: 2,
+              arrows: false
+            }
+          },
+         
+        ]
+    });
+
+
+    $('.feedback-block-slider').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          arrows:false,
+          dots: true,
+          responsive: [
+            {
+              breakpoint: 1100,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 750,
+              settings: {
+                slidesToShow: 1,
+              }
+            },
+           
+          ]
+        
+      });
+
+      $('.news-block-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:false,
+        dots: true,
+        responsive: [
+          {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 750,
+            settings: {
+              slidesToShow: 1,
+            }
+          },
+         
+        ]
+      
     });
 
 
@@ -182,8 +275,37 @@ window.addEventListener('DOMContentLoaded', () => {
 
         const btnReturn = document.querySelector('.product-top__return')
 
-        btnReturn.addEventListener('click', () => {
-          window.history.back();
-        })
+        if(btnReturn){
+          btnReturn.addEventListener('click', () => {
+            window.history.back();
+          })
+  
+        }
+       
+
+        const menu = document.querySelector(".menu");
+        const mobile = document.querySelector(".nav-icon");
+    
+        mobile.addEventListener("click", function () {
+          this.classList.toggle("nav-icon--active");
+          menu.classList.toggle("nav--active");
+          document.body.classList.toggle('overflow')
+        });
+
+        const searchMobileBtn = document.querySelector('.search-mobile-btn');
+        const search = document.querySelector('.search');
+        const searchClose = document.querySelector('.search-mobile-close');
+
+        if(searchMobileBtn){
+          searchMobileBtn.addEventListener('click', () => {
+            search.classList.add('search-block');
+          })
+        }
+        if(searchClose){
+          searchClose.addEventListener('click', () => {
+            search.classList.remove('search-block');
+          })
+        }
+    
       
 })

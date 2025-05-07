@@ -152,13 +152,21 @@
     margin: 0 auto;
 }
 .sellers-slider .slick-dots,
-.brand-slider .slick-dots{
+.brand-slider .slick-dots,
+.feedback-block-slider .slick-dots,
+.news-block-slider .slick-dots{
     display: flex;
     justify-content: center;
     gap: 15px;
 }
+.feedback-block-slider .slick-dots,
+.news-block-slider .slick-dots{
+    margin-bottom: 40px;
+}
 .sellers-slider .slick-dots li button,
-.brand-slider .slick-dots li button{
+.brand-slider .slick-dots li button,
+.feedback-block-slider .slick-dots li button,
+.news-block-slider .slick-dots li button{
     font-size: 0;
     padding: 0;
     border: none;
@@ -168,19 +176,29 @@
     background-color: #d9d9d9;
 }
 .sellers-slider li.slick-active button,
-.brand-slider li.slick-active button{
+.brand-slider li.slick-active button,
+.feedback-block-slider li.slick-active button,
+.news-block-slider li.slick-active button{
     background-color: #28859f;
 }
 .sellers-slider .slick-list{
     padding: 50px 0;
 } 
+.feedback-block-slider .slick-list,
+.news-block-slider .slick-list{
+    padding: 30px 0;
+}
 // одинаковая высота слайдов
 .sellers-slider .slick-track,
-.brand-slider .slick-track{
+.brand-slider .slick-track,
+.feedback-block-slider .slick-track,
+.news-block-slider .slick-track{
     display: flex;
 }
 .sellers-slider .slick-slide,
-.brand-slider .slick-slide{
+.brand-slider .slick-slide,
+.feedback-block-slider .slick-slide,
+.news-block-slider .slick-slide{
     height:auto;
     flex:0 0 auto;
 }
@@ -189,7 +207,13 @@
 .sellers-slider__item,
 .brand-slider .slick-slide > div,
 .brand-slider__item,
-.brand-slider__item-img{
+.brand-slider__item-img,
+.feedback-block-slider .slick-slide > div,
+.news-block-slider .slick-slide > div,
+.feedback-block-slider .feedback-block__wrapper,
+.feedback-block-slider .feedback-block__item,
+.news-block-slider .news-block__inner,
+.news-block-slider .news-block__item{
     height: 100%;
 }
 // одинаковая высота слайдов
@@ -246,6 +270,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .scition-slider__top-link{
     margin-left: 60px;
@@ -260,6 +285,7 @@
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content:space-between;
 }
 .scition-slider__elem {
     display: flex;
@@ -284,6 +310,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
     font-family: 'Futurademi';
     color: #fff;
