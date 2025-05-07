@@ -1,0 +1,192 @@
+.product {
+    padding-bottom: 80px;
+}
+.product-top {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.product-top__return {
+    margin-left: 30px;
+    position: relative;
+    font-family: 'Futurademi';
+    font-size: 16px;
+    color: #28859f;
+}
+.product-top__return::before{
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 23px;
+    top: 0;
+    left: -25px;
+    background: url('../images/home/arrow-brand-left.svg') no-repeat;
+}
+.product-top__logo {
+    margin-right: 38%;
+}
+.product-block {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.product-slider {
+    width: 50%;
+}
+.product-slide__big {
+    margin-bottom: 20px;
+}
+.product-slide__big-item img{
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+}
+.product-slide__thumb__wraper{
+    width: 155px;
+}
+.product-slide__thumb__wraper img{
+    width: 155px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-block__info {
+    width: 50%;
+}
+.product-block__info-text {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.product-block__tag {
+    margin-bottom: 30px;
+    padding: 3px 10px;
+    display: flex;
+    gap: 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+    color: #888eab;
+}
+.product-block__tag a:hover{
+    transition: all .4s ease-in;
+    text-decoration: underline;
+}
+.product-block__tag span{
+    font-family: 'Futurademi';
+}
+.product-block__cart {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.product-block__price {
+    width: 470px;
+    max-width: 100%;
+    padding: 5px 0px 5px 40px;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #28859f;
+    border-radius: 30px 30px 30px 30px;
+}
+.product-block__price-old {
+    font-size: 16px;
+}
+.pro-qty {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.quantity {
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Futurademi';
+}
+.product-block__price-new {
+    font-size: 16px;
+    font-family: 'Futurademi';
+}
+.product-block__cart-link {
+    width: 120px;
+    background: #28859f;
+    font-size: 16px;
+    font-family: 'Futurademi';
+    border-radius: 0 30px 30px 0;
+    color: #fff;
+    transform: translateX(3px);
+    text-align: center;
+}
+.product-block__cart-link:hover{
+    background: #014e64;
+}
+.product-block__cart-compare {
+    width: 120px;
+    height: 40px;
+    line-height: 34px;
+    font-size: 18px;
+    font-family: 'Futurademi';
+    color: #28859f;
+    text-align: center;
+    border: 2px solid #28859f;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.product-block__cart-compare:hover{
+    background-color: #28859f;
+    color: #fff;
+}
+.tabs__item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    border-bottom: 1px solid #888eab;
+}
+.tabs__item-btn {
+    padding-bottom: 20px;
+    font-family: 'Futurademi';
+    color: #888eab;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid transparent;
+}
+.active-tab {
+    color: #282828;
+    border-bottom: 2px solid #28859f;
+}
+.tabs__elem {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 1px dashed #d9d9d9;
+}
+.tabs__elem-name {
+    font-family: 'Futurademi';
+}
+.product__text {
+    line-height: 1.4;
+}
+.more-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
