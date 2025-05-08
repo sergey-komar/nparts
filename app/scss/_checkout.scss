@@ -1,0 +1,151 @@
+.checkout{
+    padding: 20px 0 100px 0;
+}
+.checkout-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.checkout-block__left {
+    width: 72%;
+}
+.checkout-block__top {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 16px;
+    color: #888eab;
+}
+.checkout-block__top-img {
+    width: 15%;
+}
+.checkout-block__top-item {
+    width: 40%;
+}
+.checkout-block__top-price {
+    width: 10%;
+    text-align: center;
+}
+.checkout-block__top-qty {
+    width: 20%;
+    text-align: center;
+}
+.checkout-block__top-subtotal {
+    width: 10%;
+    text-align: center;
+}
+.checkout-block__top-remove {
+    width: 5%;
+}
+.checkout-block__item {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    border-bottom:  1px solid #d9d9d9;
+}
+.checkout-block__item:first-child{
+    border-top:  1px solid #d9d9d9;
+}
+.checkout-block__item-img {
+    width: 15%;
+}
+.checkout-block__item-img img{
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.checkout-block__item-title {
+    width: 40%;
+}
+.checkout-block__item-title:hover{
+    color: #28859f;
+}
+.checkout-block__item-price {
+    width: 10%;
+    text-align: center;
+}
+.checkout-block__item-qty {
+    width: 20%;
+    text-align: center;
+}
+.checkout-block__item-qty .pro-qty {
+    width: 120px;
+    margin: 0 auto;
+}
+.checkout-block__item-subtotal {
+    width: 10%;
+    font-family: 'Futurademi';
+    text-align: center;
+}
+.checkout-block__item-close {
+    width: 5%;
+    transform: translateY(-30px);
+}
+.checkout-block__item-close img{
+    margin-left: auto;
+}
+.checkout-block__right {
+    width: 28%;
+}
+.checkout-block__contact {
+    margin-bottom: 30px;
+}
+.checkout-block__contact-title,
+.checkout-block__shiping-title {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #888eab;
+}
+.checkout-block__contact-input,
+.checkout-block__shiping-input,
+.checkout-block__shiping-select {
+    margin-bottom: 10px;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #888eab;
+    border: none;
+    border-radius: 5px;
+    background: #eef1fa;
+}
+.checkout-block__contact-input::placeholder,
+.checkout-block__shiping-input::placeholder{
+    font-size: 20px;
+    color: #888eab;
+}
+.checkout-block__label {
+    margin-bottom: 40px;
+    display: flex;
+    cursor: pointer;
+}
+.checkout-block__label-input {
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+.checkout-block__label-checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background-color:  #28859f;
+}
+.checkout-block__label-input:checked + .checkout-block__label-checkbox{
+    background-image: url('../images/home/checkbox.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.checkout-block__label-text {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.checkout-block__info-btn {
+    width: 100%;
+    line-height: 36px;
+}
