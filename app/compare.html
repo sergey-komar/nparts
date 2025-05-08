@@ -13,6 +13,9 @@
   <header class="header">
     <div class="container">
       <div class="header-box">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="./index.html" class="logo">
           <img src="./images/home/logo.svg" alt="img">
         </a>
@@ -85,19 +88,34 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <form action="#" class="search-form">
-            <input class="search-form__input" type="text" placeholder="Search">
-          </form>
-        </div>
-
-        <a href="#" class="basket">
-          <div class="basket-img">
-            <img src="./images/home/basket.svg" alt="img">
-            <span>5</span>
+        <div class="header-wrapper">
+          <div class="search">
+           
+            <button class="search-mobile-btn">
+              <img src="./images/home/search-mobile.svg" alt="img">
+            </button>
+           
+              <form action="#" class="search-form">
+                <button class="search-desctop-btn">
+                  <img src="./images/home/search-mobile.svg" alt="img">
+                </button>
+                <input class="search-form__input" type="text" placeholder="Search">
+              </form>
+              <div class="search-mobile-close">
+                <img src="./images/home/close.svg" alt="img">
+              </div>
+       
+           
           </div>
-          <div class="basket__text">Check out</div>
-        </a>
+  
+          <a href="./checkout.html" class="basket">
+            <div class="basket-img">
+              <img src="./images/home/basket.svg" alt="img">
+              <span>5</span>
+            </div>
+            <div class="basket__text">Check out</div>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -123,7 +141,196 @@
         </div>
     </div>
 
-   
+   <section class="compare">
+    <div class="container">
+      <h1 class="compare__title title">Compare items</h1>
+      <div class="compare-block">
+        <div class="compare-block__cart">
+          <div class="compare-block__item">
+            <div class="compare-block__item-img">
+              <img src="./images/home/news-2.jpg" alt="img">
+            </div>
+            <img src="./images/home/skiton-ligo.png" alt="img" class="compare-block__item-logo">
+            <div class="compare-block__item-title">
+              Candela Gentlelase Pro / Gentleyag Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107 long title case
+            </div>
+            <div class="compare-block__item-price">
+              <span class="compare-block__item-price--old">$80</span>
+              <span class="compare-block__item-price--new">$60</span>
+              <p class="compare-block__item-price--text">priece</p>
+            </div>
+            <p class="compare-block__item-text">
+              Fusce lobortis at augue semper egestas. Curabitur a accumsan dui. In vel lacus eu ligula laoreet pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lobortis at augue semper egestas. Curabitur a accumsan dui. In vel lacus eu ligula laoreet pretium.
+            </p>
+            <div class="compare-block__characteristics">
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">
+                  Characteristic, parametr, characteristic, parametr, characteristic
+                </div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+            </div>
+
+            <div class="product-block__cart">
+              <div class="product-block__price">
+                <div class="product-block__price-old">$60</div>
+                  <div class="pro-qty">
+                    <a href="#" class="dec qty-btn">
+                        <img src="./images/product/plus.svg" alt="img">
+                    </a>
+                    <input type="text" class="quantity" value="1"/>
+                    <a href="#" class="inc qty-btn">
+                        <img src="./images/product/minus.svg" alt="img">
+                    </a>
+                  </div>
+                <div class="product-block__price-new">$180</div>
+                <a href="#" class="product-block__cart-link">Add</a>
+              </div>
+            </div>
+            <img src="./images/home/compare-close.svg" alt="img" class="compare-block__item-close">
+          </div>
+          <div class="compare-block__item">
+            <div class="compare-block__item-img">
+              <img src="./images/home/news-2.jpg" alt="img">
+            </div>
+            <img src="./images/home/skiton-ligo.png" alt="img" class="compare-block__item-logo">
+            <div class="compare-block__item-title">
+              Candela Gentlelase Pro / Gentleyag Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107 long title case
+            </div>
+            <div class="compare-block__item-price">
+              <span class="compare-block__item-price--old">$80</span>
+              <span class="compare-block__item-price--new">$60</span>
+              <p class="compare-block__item-price--text">priece</p>
+            </div>
+            <p class="compare-block__item-text">
+              Fusce lobortis at augue semper egestas. Curabitur a accumsan dui. In vel lacus eu ligula laoreet pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lobortis at augue semper egestas. Curabitur a accumsan dui. In vel lacus eu ligula laoreet pretium.
+            </p>
+            <div class="compare-block__characteristics">
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">
+                  Characteristic, parametr, characteristic, parametr, characteristic
+                </div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+            </div>
+
+            <div class="product-block__cart">
+              <div class="product-block__price">
+                <div class="product-block__price-old">$60</div>
+                  <div class="pro-qty">
+                    <a href="#" class="dec qty-btn">
+                        <img src="./images/product/plus.svg" alt="img">
+                    </a>
+                    <input type="text" class="quantity" value="1"/>
+                    <a href="#" class="inc qty-btn">
+                        <img src="./images/product/minus.svg" alt="img">
+                    </a>
+                  </div>
+                <div class="product-block__price-new">$180</div>
+                <a href="#" class="product-block__cart-link">Add</a>
+              </div>
+            </div>
+            <img src="./images/home/compare-close.svg" alt="img" class="compare-block__item-close">
+          </div>
+          <div class="compare-block__item">
+            <div class="compare-block__item-img">
+              <img src="./images/home/news-2.jpg" alt="img">
+            </div>
+            <img src="./images/home/skiton-ligo.png" alt="img" class="compare-block__item-logo">
+            <div class="compare-block__item-title">
+              Candela Gentlelase Pro / Gentleyag Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107 long title case
+            </div>
+            <div class="compare-block__item-price">
+              <span class="compare-block__item-price--old">$80</span>
+              <span class="compare-block__item-price--new">$60</span>
+              <p class="compare-block__item-price--text">priece</p>
+            </div>
+            <p class="compare-block__item-text">
+              Fusce lobortis at augue semper egestas. Curabitur a accumsan dui. In vel lacus eu ligula laoreet pretium. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lobortis at augue semper egestas. Curabitur a accumsan dui. In vel lacus eu ligula laoreet pretium.
+            </p>
+            <div class="compare-block__characteristics">
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">
+                  Characteristic, parametr, characteristic, parametr, characteristic
+                </div>
+              </div>
+              <div class="compare-block__elem">
+                <div class="compare-block__elem-name">Parametr:</div>
+                <div class="compare-block__elem-text">Characteristic, characteristic</div>
+              </div>
+            </div>
+
+            <div class="product-block__cart">
+              <div class="product-block__price">
+                <div class="product-block__price-old">$60</div>
+                  <div class="pro-qty">
+                    <a href="#" class="dec qty-btn">
+                        <img src="./images/product/plus.svg" alt="img">
+                    </a>
+                    <input type="text" class="quantity" value="1"/>
+                    <a href="#" class="inc qty-btn">
+                        <img src="./images/product/minus.svg" alt="img">
+                    </a>
+                  </div>
+                <div class="product-block__price-new">$180</div>
+                <a href="#" class="product-block__cart-link">Add</a>
+              </div>
+            </div>
+            <img src="./images/home/compare-close.svg" alt="img" class="compare-block__item-close">
+          </div>
+         
+        </div>
+
+        <div class="compare-block__aside">
+          <div class="compare-block__wrapper">
+            <a href="#" class="compare-block__aside-link">
+              <img src="./images/home/compare-plus.svg" alt="img">
+            </a>
+            <p class="compare-block__aside-text">Add another product</p>
+            <form action="#" class="compare-block__form">
+              <input type="text" class="compare-block__form-input" placeholder="|Search">
+              <button class="compare-block__form-btn">
+                <img src="./images/home/search-compare.svg" alt="img">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
     
     </main>
 

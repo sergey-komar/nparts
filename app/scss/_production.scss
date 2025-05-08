@@ -16,16 +16,12 @@
     height: 40px;
     line-height: 34px;
 }
-.production__search::before{
-    position: absolute;
-    content: '';
-    width: 20px;
-    height: 20px;
-    top: -40px;
-    left: 14px;
-    background: url('../images/product/search-catalog.svg') no-repeat;
+.filter-desctop-btn{
+    background-color: transparent;
+    border: none;
 }
 .production__search-form{
+    display: flex;
     width: 300px;
     height: 40px;
     line-height: 34px;
@@ -35,7 +31,7 @@
     transform: translateY(-50px);
 }
 .production__search-form-iput {
-    padding: 0 20px 0 40px;
+    padding: 0 20px 0 0px;
     width: 100%;
     background-color: transparent;
     border: none;

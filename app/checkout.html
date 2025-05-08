@@ -85,19 +85,34 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <form action="#" class="search-form">
-            <input class="search-form__input" type="text" placeholder="Search">
-          </form>
-        </div>
-
-        <a href="#" class="basket">
-          <div class="basket-img">
-            <img src="./images/home/basket.svg" alt="img">
-            <span>5</span>
+        <div class="header-wrapper">
+          <div class="search">
+           
+            <button class="search-mobile-btn">
+              <img src="./images/home/search-mobile.svg" alt="img">
+            </button>
+           
+              <form action="#" class="search-form">
+                <button class="search-desctop-btn">
+                  <img src="./images/home/search-mobile.svg" alt="img">
+                </button>
+                <input class="search-form__input" type="text" placeholder="Search">
+              </form>
+              <div class="search-mobile-close">
+                <img src="./images/home/close.svg" alt="img">
+              </div>
+       
+           
           </div>
-          <div class="basket__text">Check out</div>
-        </a>
+  
+          <a href="./checkout.html" class="basket">
+            <div class="basket-img">
+              <img src="./images/home/basket.svg" alt="img">
+              <span>5</span>
+            </div>
+            <div class="basket__text">Check out</div>
+          </a>
+        </div>
       </div>
     </div>
   </header>

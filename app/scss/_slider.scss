@@ -156,7 +156,7 @@
 .feedback-block-slider .slick-dots,
 .news-block-slider .slick-dots,
 .more-block .slick-dots,
-.search-block .slick-dots{
+.search-block-page .slick-dots{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -170,7 +170,7 @@
 .feedback-block-slider .slick-dots li button,
 .news-block-slider .slick-dots li button,
 .more-block .slick-dots li button,
-.search-block .slick-dots li button{
+.search-block-page .slick-dots li button{
     font-size: 0;
     padding: 0;
     border: none;
@@ -184,7 +184,7 @@
 .feedback-block-slider li.slick-active button,
 .news-block-slider li.slick-active button,
 .more-block li.slick-active button,
-.search-block li.slick-active button{
+.search-block-page li.slick-active button{
     background-color: #28859f;
 }
 .sellers-slider .slick-list{

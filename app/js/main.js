@@ -143,7 +143,7 @@ $(function () {
 
     if (window.matchMedia("(max-width: 550px)").matches) {
       /* the viewport is less than 768 pixels wide */
-      $('.search-block').slick({
+      $('.search-block-page').slick({
         slidesToShow: 2,
         arrows:false,
         dots: true,
