@@ -13,6 +13,9 @@
   <header class="header">
     <div class="container">
       <div class="header-box">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="./index.html" class="logo">
           <img src="./images/home/logo.svg" alt="img">
         </a>
@@ -85,19 +88,30 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <form action="#" class="search-form">
-            <input class="search-form__input" type="text" placeholder="Search">
-          </form>
-        </div>
-
-        <a href="#" class="basket">
-          <div class="basket-img">
-            <img src="./images/home/basket.svg" alt="img">
-            <span>5</span>
+        <div class="header-wrapper">
+          <div class="search">
+            <div class="search-mobile-btn">
+              <img src="./images/home/search-mobile.svg" alt="img">
+            </div>
+           
+              <form action="#" class="search-form">
+                <input class="search-form__input" type="text" placeholder="Search">
+              </form>
+              <div class="search-mobile-close">
+                <img src="./images/home/close.svg" alt="img">
+              </div>
+       
+           
           </div>
-          <div class="basket__text">Check out</div>
-        </a>
+  
+          <a href="./checkout.html" class="basket">
+            <div class="basket-img">
+              <img src="./images/home/basket.svg" alt="img">
+              <span>5</span>
+            </div>
+            <div class="basket__text">Check out</div>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -122,6 +136,13 @@
 
     <section class="article">
         <div class="container">
+          <div class="news-mobile">
+            <a href="#" class="news-mobile__link">
+              <img src="./images/home/arrow-return.svg" alt="img">
+            </a>
+            <img src="./images/home/filter.svg" alt="img" class="news-mobile__filter">
+          </div>
+
             <div class="article-block">
                 <div class="article-block__info">
                     <div class="article-block__info-img">
@@ -129,7 +150,9 @@
                     </div>
                     <h1 class="article-block__info-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
                     <div class="article-block__info-date">2 months ago</div>
-                    <p class="article-block__info-text">
+
+                    <div class="article-block__desc">
+                      <p class="article-block__info-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel vehicula felis. Praesent eros turpis, interdum vitae placerat nec, eleifend eget leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum nec lectus in velit viverra aliquam. Integer nec sollicitudin nisl. Fusce diam orci, tristique quis euismod non, dictum at felis. Nulla vel iaculis odio, quis ornare enim. Nam efficitur purus eu gravida fringilla. Nunc euismod massa velit, vel fermentum eros pretium sit amet. Proin auctor vehicula luctus. Etiam suscipit ultricies nunc sed lacinia. Proin iaculis convallis condimentum. Etiam nec nisl quis lacus sollicitudin pretium quis at leo. Praesent consequat tincidunt sagittis. Aenean nisl justo, vulputate eu tortor non, iaculis blandit quam.
                     </p>
                     <p class="article-block__info-text">
@@ -138,6 +161,8 @@
                     <p class="article-block__info-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel vehicula felis. Praesent eros turpis, interdum vitae placerat nec, eleifend eget leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum nec lectus in velit viverra aliquam. Integer nec sollicitudin nisl. Fusce diam orci, tristique quis euismod non, dictum at felis. Nulla vel iaculis odio, quis ornare enim. Nam efficitur purus eu gravida fringilla. Nunc euismod massa velit, vel fermentum eros pretium sit amet. Proin auctor vehicula luctus. Etiam suscipit ultricies nunc sed lacinia. Proin iaculis convallis condimentum. Etiam nec nisl quis lacus sollicitudin pretium quis at leo. Praesent consequat tincidunt sagittis. Aenean nisl justo, vulputate eu tortor non, iaculis blandit quam.
                     </p>
+                    </div>
+                   
                 </div>
                 <div class="aside">
                     <div class="aside__text">Latest News</div>

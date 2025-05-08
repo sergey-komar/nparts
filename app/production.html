@@ -13,6 +13,9 @@
   <header class="header">
     <div class="container">
       <div class="header-box">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="./index.html" class="logo">
           <img src="./images/home/logo.svg" alt="img">
         </a>
@@ -85,19 +88,30 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <form action="#" class="search-form">
-            <input class="search-form__input" type="text" placeholder="Search">
-          </form>
-        </div>
-
-        <a href="#" class="basket">
-          <div class="basket-img">
-            <img src="./images/home/basket.svg" alt="img">
-            <span>5</span>
+        <div class="header-wrapper">
+          <div class="search">
+            <div class="search-mobile-btn">
+              <img src="./images/home/search-mobile.svg" alt="img">
+            </div>
+           
+              <form action="#" class="search-form">
+                <input class="search-form__input" type="text" placeholder="Search">
+              </form>
+              <div class="search-mobile-close">
+                <img src="./images/home/close.svg" alt="img">
+              </div>
+       
+           
           </div>
-          <div class="basket__text">Check out</div>
-        </a>
+  
+          <a href="./checkout.html" class="basket">
+            <div class="basket-img">
+              <img src="./images/home/basket.svg" alt="img">
+              <span>5</span>
+            </div>
+            <div class="basket__text">Check out</div>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -120,12 +134,25 @@
 
    <section class="production">
     <div class="container">
-      <h3 class="production__title title">Production</h3>
+      <div class="production-mobile">
+        <a href="#" class="production-mobile__link">
+          <img src="./images/home/arrow-return.svg" alt="img">
+        </a>
+        <h3 class="production__title title">Production</h3>
+        <img src="./images/home/filter.svg" alt="img" class="production-mobile__filter">
+      </div>
+    
       <div class="production__text">– 6 items filtered –</div>
       <div class="production__search">
+        <div class="filter-mobile-btn">
+          <img src="./images/home/search-mobile.svg" alt="img">
+        </div>
         <form action="#" class="production__search-form">
           <input type="text" class="production__search-form-iput" placeholder="Search">
         </form>
+        <div class="filter-mobile-close">
+          <img src="./images/home/close.svg" alt="img">
+        </div>
       </div>
 
       <div class="production-block">
@@ -337,6 +364,35 @@
             </div>
           </div>
 
+          <div class="pagination">
+            <ul class="pagination__list">
+                <li>
+                    <a class="pagination-arrow" href="#">
+                        <img src="./images/home/arrow-brand-left.svg" alt="img">
+                    </a>
+                </li>
+                <li>
+                    <a class="pagination-active" href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">...</a>
+                </li>
+                <li>
+                    <a href="#">17</a>
+                </li>
+                <li>
+                    <a class="pagination-arrow" href="#">
+                        <img src="./images/home/arrow-brand-right.svg" alt="img">
+                    </a>
+                </li>
+            </ul>
+          </div>
           <div class="reach">
             <div class="container">
               <div class="reach-block">
@@ -361,7 +417,7 @@
                 </form>
               </div>
             </div>
-            </div>
+          </div>
         </div>
         
       </div>

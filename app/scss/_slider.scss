@@ -154,7 +154,9 @@
 .sellers-slider .slick-dots,
 .brand-slider .slick-dots,
 .feedback-block-slider .slick-dots,
-.news-block-slider .slick-dots{
+.news-block-slider .slick-dots,
+.more-block .slick-dots,
+.search-block .slick-dots{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -166,7 +168,9 @@
 .sellers-slider .slick-dots li button,
 .brand-slider .slick-dots li button,
 .feedback-block-slider .slick-dots li button,
-.news-block-slider .slick-dots li button{
+.news-block-slider .slick-dots li button,
+.more-block .slick-dots li button,
+.search-block .slick-dots li button{
     font-size: 0;
     padding: 0;
     border: none;
@@ -178,7 +182,9 @@
 .sellers-slider li.slick-active button,
 .brand-slider li.slick-active button,
 .feedback-block-slider li.slick-active button,
-.news-block-slider li.slick-active button{
+.news-block-slider li.slick-active button,
+.more-block li.slick-active button,
+.search-block li.slick-active button{
     background-color: #28859f;
 }
 .sellers-slider .slick-list{
@@ -188,6 +194,9 @@
 .news-block-slider .slick-list{
     padding: 30px 0;
 }
+
+
+
 // одинаковая высота слайдов
 .sellers-slider .slick-track,
 .brand-slider .slick-track,

@@ -13,6 +13,9 @@
   <header class="header">
     <div class="container">
       <div class="header-box">
+        <div class="nav-icon">
+          <div class="nav-icon__middle"></div>
+        </div>
         <a href="./index.html" class="logo">
           <img src="./images/home/logo.svg" alt="img">
         </a>
@@ -85,19 +88,30 @@
           </ul>
         </nav>
 
-        <div class="search">
-          <form action="#" class="search-form">
-            <input class="search-form__input" type="text" placeholder="Search">
-          </form>
-        </div>
-
-        <a href="#" class="basket">
-          <div class="basket-img">
-            <img src="./images/home/basket.svg" alt="img">
-            <span>5</span>
+        <div class="header-wrapper">
+          <div class="search">
+            <div class="search-mobile-btn">
+              <img src="./images/home/search-mobile.svg" alt="img">
+            </div>
+           
+              <form action="#" class="search-form">
+                <input class="search-form__input" type="text" placeholder="Search">
+              </form>
+              <div class="search-mobile-close">
+                <img src="./images/home/close.svg" alt="img">
+              </div>
+       
+           
           </div>
-          <div class="basket__text">Check out</div>
-        </a>
+  
+          <a href="./checkout.html" class="basket">
+            <div class="basket-img">
+              <img src="./images/home/basket.svg" alt="img">
+              <span>5</span>
+            </div>
+            <div class="basket__text">Check out</div>
+          </a>
+        </div>
       </div>
     </div>
   </header>
@@ -147,8 +161,9 @@
               <div class="product-slide__big-item">
                 <img src="./images/home/news-1.jpg" alt="images">
               </div>
+             
             
-          </div>
+            </div>
 
           <div class="product-slide__thumb">
               <div class="product-slide__thumb-item">
@@ -171,6 +186,7 @@
                     <img src="./images/home/news-1.jpg" alt="images">
                   </div>
               </div>
+             
           </div>
           </div>
          
@@ -185,6 +201,7 @@
             <span>tags:</span>
             <a href="#">Candela,</a>
             <a href="#">Lumenis,</a>
+            <a href="#">handpiece,</a>
             <a href="#">handpiece,</a>
           </div>
 
@@ -273,84 +290,91 @@
     <div class="container">
       <h3 class="more__title title">More like this</h3>
       <div class="more-block">
-        <div class="sellers-slider__item">
-          <div class="sellers-slider__item-logo">
-            <img src="./images/home/sellers-logo.png" alt="img">
-          </div>
-          <div class="sellers-slider__item-img">
-            <img src="./images/home/sellers-img.png" alt="img">
-          </div>
-          <p class="sellers-slider__item-text">
-            Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
-          </p>
-          <div class="sellers-slider__price">
-            <div class="sellers-slider__price-old">$80</div>
-            <div class="sellers-slider__price-new">$60</div>
-            <p class="sellers-slider__price-text">piece</p>
-          </div>
-          <div class="sellers-slider__button">
-            <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
-            <a href="./compare.html" class="sellers-slider__button-compare">Compare</a>
-          </div>
-        </div>
-        <div class="sellers-slider__item">
-          <div class="sellers-slider__item-logo">
-            <img src="./images/home/sellers-logo.png" alt="img">
-          </div>
-          <div class="sellers-slider__item-img">
-            <img src="./images/home/sellers-img.png" alt="img">
-          </div>
-          <p class="sellers-slider__item-text">
-            Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
-          </p>
-          <div class="sellers-slider__price">
-            <div class="sellers-slider__price-old">$80</div>
-            <div class="sellers-slider__price-new">$60</div>
-            <p class="sellers-slider__price-text">piece</p>
-          </div>
-          <div class="sellers-slider__button">
-            <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
-            <a href="./compare.html" class="sellers-slider__button-compare">Compare</a>
+        <div class="sellers-slider__wrapper">
+          <div class="sellers-slider__item">
+            <div class="sellers-slider__item-logo">
+              <img src="./images/home/sellers-logo.png" alt="img">
+            </div>
+            <div class="sellers-slider__item-img">
+              <img src="./images/home/sellers-img.png" alt="img">
+            </div>
+            <p class="sellers-slider__item-text">
+              Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
+            </p>
+            <div class="sellers-slider__price">
+              <div class="sellers-slider__price-old">$80</div>
+              <div class="sellers-slider__price-new">$60</div>
+              <p class="sellers-slider__price-text">piece</p>
+            </div>
+            <div class="sellers-slider__button">
+              <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
+              <a href="./compare.html" class="sellers-slider__button-compare">Compare</a>
+            </div>
           </div>
         </div>
-        <div class="sellers-slider__item">
-          <div class="sellers-slider__item-logo">
-            <img src="./images/home/sellers-logo.png" alt="img">
-          </div>
-          <div class="sellers-slider__item-img">
-            <img src="./images/home/sellers-img.png" alt="img">
-          </div>
-          <p class="sellers-slider__item-text">
-            Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
-          </p>
-          <div class="sellers-slider__price">
-            <div class="sellers-slider__price-old">$80</div>
-            <div class="sellers-slider__price-new">$60</div>
-            <p class="sellers-slider__price-text">piece</p>
-          </div>
-          <div class="sellers-slider__button">
-            <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
-            <a href="./compare.html" class="sellers-slider__button-compare">Compare</a>
+        <div class="sellers-slider__wrapper">
+          <div class="sellers-slider__item">
+            <div class="sellers-slider__item-logo">
+              <img src="./images/home/sellers-logo.png" alt="img">
+            </div>
+            <div class="sellers-slider__item-img">
+              <img src="./images/home/sellers-img.png" alt="img">
+            </div>
+            <p class="sellers-slider__item-text">
+              Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
+            </p>
+            <div class="sellers-slider__price">
+              <div class="sellers-slider__price-old">$80</div>
+              <div class="sellers-slider__price-new">$60</div>
+              <p class="sellers-slider__price-text">piece</p>
+            </div>
+            <div class="sellers-slider__button">
+              <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
+              <a href="" class="sellers-slider__button-compare">Compare</a>
+            </div>
           </div>
         </div>
-        <div class="sellers-slider__item">
-          <div class="sellers-slider__item-logo">
-            <img src="./images/home/sellers-logo.png" alt="img">
+        <div class="sellers-slider__wrapper">
+          <div class="sellers-slider__item">
+            <div class="sellers-slider__item-logo">
+              <img src="./images/home/sellers-logo.png" alt="img">
+            </div>
+            <div class="sellers-slider__item-img">
+              <img src="./images/home/sellers-img.png" alt="img">
+            </div>
+            <p class="sellers-slider__item-text">
+              Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
+            <div class="sellers-slider__price">
+              <div class="sellers-slider__price-old">$80</div>
+              <div class="sellers-slider__price-new">$60</div>
+              <p class="sellers-slider__price-text">piece</p>
+            </div>
+            <div class="sellers-slider__button">
+              <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
+              <a href="" class="sellers-slider__button-compare">Compare</a>
+            </div>
           </div>
-          <div class="sellers-slider__item-img">
-            <img src="./images/home/sellers-img.png" alt="img">
-          </div>
-          <p class="sellers-slider__item-text">
-            Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
-          </p>
-          <div class="sellers-slider__price">
-            <div class="sellers-slider__price-old">$80</div>
-            <div class="sellers-slider__price-new">$60</div>
-            <p class="sellers-slider__price-text">piece</p>
-          </div>
-          <div class="sellers-slider__button">
-            <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
-            <a href="./compare.html" class="sellers-slider__button-compare">Compare</a>
+        </div>
+        <div class="sellers-slider__wrapper">
+          <div class="sellers-slider__item">
+            <div class="sellers-slider__item-logo">
+              <img src="./images/home/sellers-logo.png" alt="img">
+            </div>
+            <div class="sellers-slider__item-img">
+              <img src="./images/home/sellers-img.png" alt="img">
+            </div>
+            <p class="sellers-slider__item-text">
+              Candela Gentlelase Pro / Gentleya Pro / Gentlemax Pro Acc 6-18mm Shell Case, Casc1385 B107
+            </p>
+            <div class="sellers-slider__price">
+              <div class="sellers-slider__price-old">$80</div>
+              <div class="sellers-slider__price-new">$60</div>
+              <p class="sellers-slider__price-text">piece</p>
+            </div>
+            <div class="sellers-slider__button">
+              <a href="#" class="sellers-slider__button-cart btn">Add to cart</a>
+              <a href="" class="sellers-slider__button-compare">Compare</a>
+            </div>
           </div>
         </div>
       </div>

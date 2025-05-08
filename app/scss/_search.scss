@@ -1,0 +1,23 @@
+.search-page {
+    padding: 20px 0 100px 0;
+}
+.search__text {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.search-block {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.search-page .sellers-slider__wrapper{
+    width: calc(100% / 4 - 40px);
+}
+.search-feedback .feedback-block-slider{
+   justify-content: unset;
+   gap: 60px;
+}
+.search-feedback,
+.search-news{
+    padding-bottom: 80px;
+}

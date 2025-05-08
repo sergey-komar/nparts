@@ -11,6 +11,10 @@
 .article{
     padding: 20px 0 100px 0;
 }
+.news-mobile{
+    margin-bottom: 20px;
+    display: none;
+}
 .article-block {
     display: flex;
     justify-content: space-between;
@@ -36,6 +40,9 @@
 .article-block__info-text {
     margin-bottom: 20px;
     line-height: 1.4;
+}
+.article-block__info-text:last-child{
+    margin-bottom: 0;
 }
 .aside {
     width: 30%;
