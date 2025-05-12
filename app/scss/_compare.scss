@@ -9,12 +9,15 @@
 .compare-block__cart {
     width: 75%;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
+}
+.compare-block__inner{
+    width: calc(100% / 3 - 20px);
 }
 .compare-block__item {
     position: relative;
     padding: 40px 15px;
-    width: calc(100% / 3 - 20px);
     box-shadow: 0 4px 30px 0 rgba(136, 142, 171, 0.25);
     background: #fff;
     border-radius: 10px;

@@ -151,6 +151,16 @@ $(function () {
     } 
 
 
+    if (window.matchMedia("(max-width: 550px)").matches) {
+      /* the viewport is less than 768 pixels wide */
+      $('.compare-block__cart').slick({
+        slidesToShow: 1,
+        arrows:false,
+        dots: true,
+      });
+    } 
+
+
 
 
     $('.product-slide__thumb').slick({
@@ -196,6 +206,35 @@ $(function () {
     
       $slider.slick();
     }
+
+
+      $('.clients-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 4,
+            }
+          },
+         
+          {
+            breakpoint: 750,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+
+          {
+            breakpoint: 550,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+         
+        ]
+      });
 
 
      //qty-btn
@@ -309,6 +348,49 @@ window.addEventListener('DOMContentLoaded', () => {
 
         tabsHide();
         tabsShow(0);
+
+        }
+
+       
+       
+        const tabsItemPage = document.querySelector('.tabs-page__item');
+        const tabsItemBtnPage = document.querySelectorAll('.tabs-page__item-btn');
+        const tabsContentPage = document.querySelectorAll('.tabs-page__content');
+
+        function tabsHidePage(){
+            tabsContentPage.forEach(item => {
+                item.classList.add('hide-page');
+                item.classList.remove('show-page');
+            });
+
+            tabsItemBtnPage.forEach(btn =>{
+                btn.classList.remove('tabs-page-active');
+            })
+        }
+        function tabsShowPage(i){
+            tabsContentPage[i].classList.add('show-page');
+            tabsContentPage[i].classList.remove('hide-page');
+            tabsItemBtnPage[i].classList.add('tabs-page-active');
+        }
+
+        if(tabsItemPage && tabsItemBtnPage && tabsContentPage){
+          tabsItemPage.addEventListener('click', (e)=>{
+            const target = e.target;
+            
+            if(target && target.classList.contains('tabs-page__item-btn')){
+                tabsItemBtnPage.forEach((item, i)=>{
+                    if(target == item){
+                        tabsHidePage();
+                        tabsShowPage(i);
+                    }
+                  
+                })
+              
+            }
+        })
+
+        tabsHidePage();
+        tabsShowPage(0);
 
         }
 

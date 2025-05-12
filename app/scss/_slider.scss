@@ -156,7 +156,8 @@
 .feedback-block-slider .slick-dots,
 .news-block-slider .slick-dots,
 .more-block .slick-dots,
-.search-block-page .slick-dots{
+.search-block-page .slick-dots,
+.compare-block__cart .slick-dots{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -170,7 +171,8 @@
 .feedback-block-slider .slick-dots li button,
 .news-block-slider .slick-dots li button,
 .more-block .slick-dots li button,
-.search-block-page .slick-dots li button{
+.search-block-page .slick-dots li button,
+.compare-block__cart .slick-dots li button{
     font-size: 0;
     padding: 0;
     border: none;

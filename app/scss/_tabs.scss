@@ -1,0 +1,66 @@
+.tabs-page {
+    padding: 150px 0 100px 0;
+}
+.tab-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.tabs-page__item {
+   width: 25%;
+}
+.tabs-page__item-btn {
+    width: 100%;
+    padding: 20px;
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: #888eab;
+    text-align: left;
+    border-bottom: 1px solid #888eab;
+}
+.tabs-page__item-btn{
+    border-top:  1px solid #888eab;
+}
+.tabs-page__item-btn:first-child{
+    border-top:  2px solid #888eab;
+}
+.tabs-page__item-btn:last-child{
+    border-bottom: 2px solid #888eab;
+}
+.tabs-page-active {
+    font-family: 'Futurademi';
+    color: #282828;
+}
+.tabs-page-active{
+    border-top:  1px solid #28859f;
+    border-bottom: 1px solid #28859f;
+}
+.tabs-page-active:first-child{
+    border-top:  2px solid #28859f;
+}
+.tabs-page-active:last-child{
+    border-bottom: 2px solid #28859f;
+}
+.tabs-page__content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    order: -1;
+}
+.tabs-page__content-text {
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+.tabs-page-subtitle {
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-family: 'Futurademi';
+}
+.show-page{
+    display: flex;
+}
+.hide-page{
+    display: none;
+}
